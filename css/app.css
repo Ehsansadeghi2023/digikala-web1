@@ -1,0 +1,42 @@
+.appdl{
+    width: 1479px;
+    height: 76px;
+    display: flex;
+    border-radius: 10px;
+    background-color:#3c4b6d;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    & .digilogo{
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 20px;
+        & .digilogo-img{
+            width: 50px;
+            height: 50px;
+        }
+        & .digitext{
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+   & .app{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 16px;
+    gap: 10px;
+    & .app-img{
+        border-radius: 4px;}
+    & .app-img-other{ 
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        border: 1px solid #c0c2c5;
+        background-color: #fff;
+    
+    }
+   }
+}
